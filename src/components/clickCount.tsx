@@ -10,6 +10,7 @@ const ClickCount: React.FC<ClickCountProps> = () => {
     // This will run every time counter changed
     console.log('Clicked the button ${count} times');
 }, [count]);
+
   return (
     <div>
       ClickCount
