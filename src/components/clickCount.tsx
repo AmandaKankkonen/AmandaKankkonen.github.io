@@ -8,7 +8,8 @@ const ClickCount: React.FC<ClickCountProps> = () => {
   const [count, setCount] = useState(0);
   useEffect(() => {
     // This will run every time counter changed
-    console.log('Clicked the button ${count} times');
+    <button onClick={() => setCount(count + 1)}>+1</button>
+    console.log(`Clicked the button ${count} times`);
 }, [count]);
 
   return (
