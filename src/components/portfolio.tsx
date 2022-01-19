@@ -5,12 +5,7 @@ import './portfolio.module.scss';
 const Port: React.FC = () => {
   return (
 
-    <html lang="en">
-
-<head>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-
+  <html lang="en">
 <body>
     <h1>Amanda Kankkonen</h1>
     <br/>
