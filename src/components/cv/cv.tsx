@@ -22,7 +22,6 @@ const CV: React.FC<CVProps> = () => {
 <p><ul>
 <li>Artist/Taitelija -Tanssija/Dancer- 31/08/2011-present/nykyään</li><br/>
 <li>Nanny/Au pair -Sara Ludena- 04/01/2014-06/06/2017 </li></ul></p>
-<br/><br/>
 </div>
   )
 }
