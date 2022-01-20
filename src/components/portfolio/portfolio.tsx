@@ -7,8 +7,6 @@ const Port: React.FC = () => {
 
   <html lang="en">
 <body>
-    <br/>
-    <br/>
     <div><h2>Portfolio:</h2></div>
     <br/>
 	<div className="links">
