@@ -1,10 +1,10 @@
 // App.tsx
-import MyFirstComponent from './components/myFirstComponent';
-import SomeExampleComponent from './components/example/someExampleComponent';
-import ClickCount from './components/clickCount';
+import MyFirstComponent from '../firstcomponent/myFirstComponent';
+import SomeExampleComponent from '../examplecomponent/someExampleComponent';
+import ClickCount from '../clickcount/clickCount';
 import styles from './App.module.scss';
-import Port from './components/portfolio';
-import CV from './components/cv';
+import Port from '../portfolio/portfolio';
+import CV from '../cv/cv';
 import {
   BrowserRouter as Router,
   Switch,
