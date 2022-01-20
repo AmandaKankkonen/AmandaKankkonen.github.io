@@ -16,7 +16,7 @@ import {
 const App: React.FC = () => {
   return (
        // Important! add your repositoryname to basename
-       <Router basename='/reactportfolio'>
+       <Router basename='./aboutme/aboutMe'>
       
        {/* The navigation bar and other components you want to display on all pages come here */}
        <div className={styles.navbar}>
