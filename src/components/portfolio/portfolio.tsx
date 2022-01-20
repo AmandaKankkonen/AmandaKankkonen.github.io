@@ -20,7 +20,6 @@ const Port: React.FC = () => {
         </p>
     </div>
     <br/><br/><br/><br/><br/>
-<footer><a href="mailto: amandakankkonen@gmail.com">amandakankkonen@gmail.com</a></footer>
 </body>
 </html>
 ) // </Router>

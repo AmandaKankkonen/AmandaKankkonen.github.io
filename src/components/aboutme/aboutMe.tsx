@@ -15,7 +15,7 @@ const AboutMe: React.FC<AboutMeProps> = () => {
         <p>Originally from US, I am a 2nd year programming student currently studying at Varia in Vantaa, Finland.
 	<br/><br/><h2>My language experience includes:</h2><br/><br/>
     HTML & CSS/SASS, Java, Javascript, Typescript, REACT, C#</p></div>
-    <br/>
+    <br/><br/><br/><br/>
     </body>
   )
 }
