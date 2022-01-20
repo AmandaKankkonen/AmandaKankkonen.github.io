@@ -19,7 +19,7 @@ const Port: React.FC = () => {
              <div className="link4"><a href="https://github.com/AmandaKankkonen/reactportfolio">React Webpage for Ohjelmointi</a></div>
         </p>
     </div>
-    <br/><br/><br/><br/><br/>
+    <br/><br/>
 </body>
 </html>
 ) // </Router>
