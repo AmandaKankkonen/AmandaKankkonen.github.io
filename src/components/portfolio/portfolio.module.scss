@@ -38,16 +38,11 @@ body {
     display: flex;
     justify-content: center;
     column-gap: 20px;
-
-    .link1, .link2, .link3, .link4 {
-      @extend h1;
-      font-size: 20;
-      border: $myBorder;
-      padding: 30px 30px;
-      width: 125px;
-      height: 75px;
-      text-decoration: $myTextDeco;
-    }
+    border: $myBorder;
+    padding: 30px 30px;
+    width: 125px;
+    height: 75px;
+    
   }
 
   a {
