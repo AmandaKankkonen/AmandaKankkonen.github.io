@@ -1,4 +1,5 @@
 import React from 'react'
+import styles from './cv.module.scss'
 
 type CVProps = {
 
@@ -6,7 +7,7 @@ type CVProps = {
 
 const CV: React.FC<CVProps> = () => {
   return (
-    <div>
+    <div className={styles.container}>
       <h1>Koulutus / Schooling</h1><br/>
       <p>
       <ul><li>Varia ammattikoulu -ICT Ohjelmointi- 01/02/2021-present/nykyään</li><br/>

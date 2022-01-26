@@ -1,0 +1,32 @@
+$primary_1: #ffffff;
+$myFont: Georgia;
+$myBorder: 1px solid;
+$myTextAlign: center;
+$myFontWeight: bold;
+$myTextDeco: none;
+
+.container {
+    background-color: #282c34;
+
+    .header {
+        p {
+            color: #add8e6;
+            font-family: $myFont;
+            text-align: $myTextAlign;
+            font-weight: $myFontWeight;
+            font-size: 35; 
+        }
+        h1 {
+            color: $primary_1;
+            font-family: $myFont;
+            font-weight: $myFontWeight;
+            text-align: $myTextAlign;
+        }
+    }
+
+    .content{
+        @extend p;
+
+    }
+
+}
