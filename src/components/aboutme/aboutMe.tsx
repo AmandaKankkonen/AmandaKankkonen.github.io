@@ -14,7 +14,7 @@ const AboutMe: React.FC<AboutMeProps> = () => {
       </div>
       <div className={styles.content}>
         <p>Originally from the US, I am a 2nd year programming student currently studying at Varia in Vantaa, Finland.</p>
-          <h2>My language experience includes:</h2><p> HTML & CSS/SASS, Java, Javascript, Typescript, REACT, C#
+          <h2>My language experience includes:</h2><p> HTML & CSS/SASS, Java, Javascript, Typescript, REACT, C#, SQL/NoSQL
         </p>
       </div>
     </div>
