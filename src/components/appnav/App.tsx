@@ -4,7 +4,7 @@ import Port from '../portfolio/portfolio';
 import CV from '../cv/cv';
 import Footer from '../footer';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
   Link
@@ -19,7 +19,7 @@ const App: React.FC = () => {
        <div className={styles.navbar}>
          <Link to='portfolio'>Portfolio</Link>
          <Link to='CV'>CV</Link>
-         <a href='https://www.linkedin.com/in/amanda-kankkonen-038853212/'>LinkedIn</a>
+         <a href='https://www.linkedin.com/in/amanda-kankkonen-038853212/' target="_blank">LinkedIn</a>
        </div>
        <AboutMe/>
        <Switch>
