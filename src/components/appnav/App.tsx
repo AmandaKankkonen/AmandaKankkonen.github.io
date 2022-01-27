@@ -19,6 +19,7 @@ const App: React.FC = () => {
        <div className={styles.navbar}>
          <Link to='portfolio'>Portfolio</Link>
          <Link to='CV'>CV</Link>
+         <a href='https://www.linkedin.com/in/amanda-kankkonen-038853212/'>LinkedIn</a>
        </div>
        <AboutMe/>
        <Switch>
