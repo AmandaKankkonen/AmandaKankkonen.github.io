@@ -1,7 +1,3 @@
-// App.tsx
-//import MyFirstComponent from '../firstcomponent/myFirstComponent';
-//import SomeExampleComponent from '../examplecomponent/someExampleComponent';
-//import ClickCount from '../clickcount/clickCount';
 import AboutMe from '../aboutme/aboutMe';
 import styles from './App.module.scss';
 import Port from '../portfolio/portfolio';
