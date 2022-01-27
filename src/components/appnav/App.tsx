@@ -21,8 +21,8 @@ const App: React.FC = () => {
 
        {/* The navigation bar and other components you want to display on all pages come here */}
        <div className={styles.navbar}>
-         <Link to='portfolio'>My portfolio</Link>
-         <Link to='CV'>My CV</Link>
+         <Link to='portfolio'>Portfolio</Link>
+         <Link to='CV'>CV</Link>
        </div>
        <AboutMe/>
        <Switch>

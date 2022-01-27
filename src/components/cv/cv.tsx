@@ -15,7 +15,7 @@ const CV: React.FC<CVProps> = () => {
       <li>Kynsiteknikko -New Skills Academy- 05/12/2019-11/12/2019</li><br/>
       <li>Suomi B1.1-B1.2 Intensiivisesti -Helsingin Työväenopisto- 27/10/2019-5/12/2019</li><br/>
       <li>Suomen kieli A1-B1 -Arffman- 12/11/2018-13/05/2019</li><br/>
-     <li>Lukio/High School -Dunedin HS- 2008 </li></ul><br/><br/>
+     <li>Lukio/High School -Dunedin HS- 2008 </li></ul><br/>
 
 <h1>Viimeaikainen Työhistoria / Recent Employment History</h1><br/>
 <ul>
