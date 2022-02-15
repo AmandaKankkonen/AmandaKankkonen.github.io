@@ -3,16 +3,17 @@ $myTextAlign: center;
 $myFontWeight: bold;
 
 .container {
-    background-color: #282c34;
+    // background-color: #282c34;
     text-align: $myTextAlign
 }
 
-li {
+.container ul li {
   color: #add8e6;
   font-family: $myFont;
   text-align: $myTextAlign;
   font-weight: $myFontWeight;
   font-size: 35;
   list-style-position: inside;
+  margin: 10px 0;
 
 }
