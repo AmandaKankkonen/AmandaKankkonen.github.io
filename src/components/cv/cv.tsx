@@ -19,6 +19,7 @@ const CV: React.FC<CVProps> = () => {
 
 <h2>Viimeaikainen Työhistoria / Recent Employment History</h2>
 <ul>
+<li>(Kieli) Työharjoittelu -Vantaa Kaupunki/Tiedonjyvän Päiväkoti- 26/8-04/10/2019</li><br/>
 <li>Artist/Taitelija -Tanssija/Dancer- 31/08/2011-present/nykyään</li><br/>
 <li>Nanny/Au pair -Sara Ludena- 04/01/2014-06/06/2017 </li></ul><br/>
 </div>
