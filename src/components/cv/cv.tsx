@@ -23,13 +23,14 @@ const CV: React.FC<CVProps> = () => {
 
       <h2>Viimeaikainen Työhistoria / Recent Employment History</h2>
       <ul>
-      {
+       {
           workdata.map(x => {
             return (
               <li key={x.key}>{x.text}</li>
             )
           })
-        }</ul>
+       }
+      </ul>
     </div>
   )
 }
