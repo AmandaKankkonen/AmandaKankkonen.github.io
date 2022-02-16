@@ -1,8 +1,9 @@
 import React from 'react'
-import { AiOutlineLinkedin } from 'react-icons/ai';
+import { AiOutlineLinkedin } from 'react-icons/ai'
 import { GrGithub } from 'react-icons/gr'
+import { SiUnity } from 'react-icons/si'
 import { Link } from 'react-router-dom'
-import styles from './navbar.module.scss';
+import styles from './navbar.module.scss'
 
 type NavbarProps = {
 
@@ -21,7 +22,21 @@ const Navbar: React.FC<NavbarProps> = () => {
         <GrGithub color="lightblue" size="23" />
         </a>
 
-        <a href='https://www.linkedin.com/in/amanda-kankkonen-038853212/' target="_blank" rel="noreferrer noopener"><AiOutlineLinkedin color="lightblue" size="23" /></a>
+        <a href='https://play.unity.com/u/AmandaKankkonen'
+        target="_blank"
+        rel="noreferrer noopener"
+        >
+        <SiUnity color="lightblue" size="23" />
+        </a>
+
+        <a href='https://www.linkedin.com/in/amanda-kankkonen-038853212/'
+        target="_blank"
+        rel="noreferrer noopener"
+        >
+        <AiOutlineLinkedin color="lightblue" size="23" />
+        </a>
+
+
     </div>
   )
 }

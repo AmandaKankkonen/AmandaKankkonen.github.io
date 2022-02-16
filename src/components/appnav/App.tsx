@@ -6,11 +6,7 @@ import Footer from '../footer/footer';
 import {
   HashRouter as Router,
   Switch,
-  Route,
-  Link
-} from 'react-router-dom';
-import { AiOutlineLinkedin } from 'react-icons/ai';
-import { GrGithub } from 'react-icons/gr';
+  Route} from 'react-router-dom';
 import Navbar from '../navbar/navbar';
 
 const App: React.FC = () => {
