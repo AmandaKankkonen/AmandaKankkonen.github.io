@@ -28,4 +28,18 @@ $myFontWeight: bold;
 
     }
 
+    .photo {
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border: $myBorder;
+            border-color: #add8e6;
+            border-radius: 4px;
+            padding: 25px 25px;
+            width: 175px;
+            height: 300px;
+        }
+    }
+
 }

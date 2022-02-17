@@ -1,5 +1,7 @@
 import React from 'react';
 import styles from './aboutMe.module.scss';
+import photo from './image1.jpg';
+
 
 type AboutMeProps = {
 
@@ -11,6 +13,9 @@ const AboutMe: React.FC<AboutMeProps> = () => {
       <div className={styles.header}>
         <p>Hello, my name is</p>
         <h1>Amanda Kankkonen</h1>
+          <div className={styles.photo}>
+           <img src={photo} alt='myphoto'/>
+          </div>
       </div>
       <div className={styles.content}>
         <p>Originally from the US, I am a 2nd year programming student currently 
