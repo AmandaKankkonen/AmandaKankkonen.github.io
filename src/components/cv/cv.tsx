@@ -17,7 +17,7 @@ const CV: React.FC<CVProps> = () => {
             return (
               <li key={x.key}>
                 {x.text}<br/>
-                <div className='date'>{x.date}</div>
+                {x.date}
               </li>
             )
           })
@@ -31,7 +31,7 @@ const CV: React.FC<CVProps> = () => {
             return (
               <li key={x.key}>
                 {x.text}<br/>
-                <div className='date'>{x.date}</div>
+                {x.date}
               </li>
             )
           })

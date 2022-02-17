@@ -12,12 +12,12 @@ export const workdata: IWorkdata[] = [
     },
     {
         key: 2,
-        text: 'Artist/Taitelija',
-        date: '-Tanssija/Dancer, 31/08/2011-present/nykyään'
+        text: 'Taitelija/Artist',
+        date: '-Tanssija/Professional Dancer, 31/07/2011-2018'
     },
     {
         key: 3,
-        text: 'Nanny/Au pair -Sara Ludena, 04/01/2014-06/06/2017',
-        date: '-Sara Ludena, 04/01/2014-06/06/2017'
+        text: 'Au pair/Nanny',
+        date: '-Sara Ludena (Employer), 04/01/2014-06/06/2017'
     }
 ];

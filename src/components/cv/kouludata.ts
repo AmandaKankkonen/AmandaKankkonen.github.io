@@ -22,7 +22,7 @@ export const kouludata: IKouludata[] = [
     },
     {
         key: 4,
-        text: 'Kynsiteknikkon/Nail Technician Diploma',
+        text: 'Kynsiteknikko/Nail Technician Diploma',
         date: '-New Skills Academy, 05/12/2019-11/12/2019'
     },
     {
