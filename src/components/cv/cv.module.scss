@@ -15,5 +15,15 @@ $myFontWeight: bold;
   font-size: 35;
   list-style-position: inside;
   margin: 10px 0;
+}
+
+.container ul li .date {
+  color: #add8e6;
+  font-family: $myFont;
+  text-align: $myTextAlign;
+  font-weight: $myFontWeight;
+  font-size: 15;
+  list-style-position: inside;
+  margin: 10px 0;
 
 }

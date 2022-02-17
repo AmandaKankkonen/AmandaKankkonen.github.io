@@ -15,7 +15,10 @@ const CV: React.FC<CVProps> = () => {
         {
           kouludata.map(x => {
             return (
-              <li key={x.key}>{x.text}</li>
+              <li key={x.key}>
+                {x.text}<br/>
+                <div className='date'>{x.date}</div>
+              </li>
             )
           })
         }
@@ -26,7 +29,10 @@ const CV: React.FC<CVProps> = () => {
        {
           workdata.map(x => {
             return (
-              <li key={x.key}>{x.text}</li>
+              <li key={x.key}>
+                {x.text}<br/>
+                <div className='date'>{x.date}</div>
+              </li>
             )
           })
        }
