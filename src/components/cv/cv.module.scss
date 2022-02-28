@@ -6,8 +6,12 @@ $myFontWeight: bold;
     text-align: $myTextAlign
 }
 
+h2 {
+  text-shadow: 1px 1px 2px purple;
+}
+
 .container ul li {
-  color: #add8e6;
+  color: hotpink;
   font-family: $myFont;
   text-align: $myTextAlign;
   font-weight: $myFontWeight;

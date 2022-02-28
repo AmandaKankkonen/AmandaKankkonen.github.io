@@ -8,7 +8,7 @@ $myTextDeco: none;
 
 .container{
     @extend h1;
-    background-color: #282c34;
+    background-color: #ffd5f1;
     text-decoration: $myTextDeco;
   }
   
@@ -45,14 +45,14 @@ p {
 }
 
 a {
-    color: #65cef8;
+    color: hotpink;
     text-decoration: $myTextDeco;
     font-weight: $myFontWeight;
     text-align: $myTextAlign;
   }
   
 a:visited {
-    color: #ffb0f2;
+    color: mediumorchid;
     text-decoration: $myTextDeco;
     text-align: $myTextAlign; 
   } 

@@ -19,21 +19,21 @@ const Navbar: React.FC<NavbarProps> = () => {
         target="_blank"
         rel="noreferrer noopener"
         >
-        <GrGithub color="lightblue" size="23" />
+        <GrGithub color="hotpink" size="23" />
         </a>
 
         <a href='https://play.unity.com/u/AmandaKankkonen'
         target="_blank"
         rel="noreferrer noopener"
         >
-        <SiUnity color="lightblue" size="23" />
+        <SiUnity color="hotpink" size="23" />
         </a>
 
         <a href='https://www.linkedin.com/in/amanda-kankkonen-038853212/'
         target="_blank"
         rel="noreferrer noopener"
         >
-        <AiOutlineLinkedin color="lightblue" size="23" />
+        <AiOutlineLinkedin color="hotpink" size="23" />
         </a>
 
 

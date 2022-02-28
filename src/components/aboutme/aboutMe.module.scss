@@ -5,11 +5,10 @@ $myTextAlign: center;
 $myFontWeight: bold;
 
 .container {
-    background-color: #282c34;
-
+    background-color: #ffd5f1;
     .header {
         p {
-            color: #add8e6;
+            color: hotpink;
             font-family: $myFont;
             text-align: $myTextAlign;
             font-weight: $myFontWeight;
@@ -20,22 +19,43 @@ $myFontWeight: bold;
             font-family: $myFont;
             font-weight: $myFontWeight;
             text-align: $myTextAlign;
+            text-shadow: 1px 1px 2px purple;
         }
     }
 
     .content{
-        @extend p;
+        p {
+            color: hotpink;
+            font-family: $myFont;
+            text-align: $myTextAlign;
+            font-weight: $myFontWeight;
+            font-size: 35; 
+        }
+        h2 {
+            color: $primary_1;
+            font-family: $myFont;
+            font-weight: $myFontWeight;
+            text-align: $myTextAlign;
+            text-shadow: 1px 1px 2px purple; 
+        }
 
     }
 
     .photo {
         img {
-            display: block;
             margin-left: auto;
             margin-right: auto;
             border: $myBorder;
-            border-color: #add8e6;
             border-radius: 4px;
+            color: hotpink;
+            border: 15px solid rgb(253, 73, 214);
+            border-image-source: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/hearts-border-image.png);
+            border-image-slice: 20 22;
+            border-image-repeat: stretch;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
             padding: 25px 25px;
             width: 175px;
             height: 300px;
