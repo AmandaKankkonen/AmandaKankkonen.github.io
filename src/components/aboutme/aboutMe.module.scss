@@ -6,7 +6,11 @@ $myFontWeight: bold;
 
 .container {
     background-color: #ffd5f1;
-    .header {
+    display: inline-flex;
+    padding: 25px;
+    padding-left: 175px;
+
+   /* .header {
         p {
             color: hotpink;
             font-family: $myFont;
@@ -21,9 +25,11 @@ $myFontWeight: bold;
             text-align: $myTextAlign;
             text-shadow: 1px 1px 2px purple;
         }
-    }
+    } */
 
     .content{
+        padding: 0px 15px;
+        width: 650px;
         p {
             color: hotpink;
             font-family: $myFont;
@@ -31,12 +37,15 @@ $myFontWeight: bold;
             font-weight: $myFontWeight;
             font-size: 35; 
         }
-        h2 {
+        h1 {
             color: $primary_1;
             font-family: $myFont;
             font-weight: $myFontWeight;
             text-align: $myTextAlign;
-            text-shadow: 1px 1px 2px purple; 
+            text-shadow: 1px 1px 2px purple;
+        }
+        h2 {
+            @extend h1 
         }
 
     }
@@ -56,9 +65,9 @@ $myFontWeight: bold;
             flex-direction: row;
             justify-content: center;
             align-items: center;
-            padding: 25px 25px;
-            width: 175px;
-            height: 300px;
+            padding: 15px 15px;
+            width: 155px;
+            height: 280px;
         }
     }
 

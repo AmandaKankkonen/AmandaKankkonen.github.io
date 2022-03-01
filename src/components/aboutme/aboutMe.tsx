@@ -10,14 +10,12 @@ type AboutMeProps = {
 const AboutMe: React.FC<AboutMeProps> = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.header}>
-        <p>Hello, my name is</p>
-        <h1>Amanda Kankkonen</h1>
-          <div className={styles.photo}>
+      <div className={styles.photo}>
            <img src={photo} alt='myphoto'/>
-          </div>
       </div>
       <div className={styles.content}>
+        <p>Hello, my name is</p>
+        <h1>Amanda Kankkonen</h1>
         <p>Originally from the US, I am a 2nd year programming student currently 
            studying at Varia in Vantaa, Finland.<br/>
            I am native in English and fluent in Finnish (taso B2).
