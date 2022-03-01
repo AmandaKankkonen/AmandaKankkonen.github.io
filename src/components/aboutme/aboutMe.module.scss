@@ -15,23 +15,23 @@ $myFontWeight: bold;
     .content{
         padding: 0px 15px;
         width: 600px;
-        p {
+            p {
             color: hotpink;
             font-family: $myFont;
             text-align: $myTextAlign;
             font-weight: $myFontWeight;
             font-size: 35;
-        }
-        h1 {
+            }
+            h1 {
             color: $primary_1;
             font-family: $myFont;
             font-weight: $myFontWeight;
             text-align: $myTextAlign;
             text-shadow: 1px 1px 2px purple;
-        }
-        h2 {
+            }
+            h2 {
             @extend h1 
-        }
+            }
 
     }
 
@@ -46,10 +46,6 @@ $myFontWeight: bold;
             border-image-source: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/hearts-border-image.png);
             border-image-slice: 20 22;
             border-image-repeat: stretch;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
             padding: 15px 15px;
             width: 155px;
             height: 280px;
