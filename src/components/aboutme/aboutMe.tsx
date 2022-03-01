@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './aboutMe.module.scss';
-import photo from './image1.jpg';
+import photo from './photos/image1.jpg';
+import gif from './photos/hiwave.gif'
 
 
 type AboutMeProps = {
@@ -22,6 +23,9 @@ const AboutMe: React.FC<AboutMeProps> = () => {
         </p>
           <h2>My language experience includes:</h2>
         <p>HTML & CSS/SASS, Java, Javascript, Typescript, REACT, C#, SQL/NoSQL</p>
+      </div>
+      <div className={styles.gif}>
+      <img src={gif} alt='wavegif'/>
       </div>
     </div>
   )
