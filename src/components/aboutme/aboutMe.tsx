@@ -25,7 +25,7 @@ const AboutMe: React.FC<AboutMeProps> = () => {
         <p>HTML & CSS/SASS, Java, Javascript, Typescript, REACT, C#, SQL/NoSQL</p>
       </div>
       <div className={styles.gif}>
-      <img src={gif} alt='wavegif'/>
+        <img src={gif} alt='wavegif'/>
       </div>
     </div>
   )
