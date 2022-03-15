@@ -7,9 +7,14 @@ body {
   border-image-repeat: repeat;
   border-image-width: auto;
   border-image-slice: 75 0;
-
 }
 
 .container {
   height: 100%;
+}
+
+@media (max-width: 600px) {
+  body {
+    display: inline-flex;
+  }
 }

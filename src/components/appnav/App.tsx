@@ -13,7 +13,6 @@ const App: React.FC = () => {
   return (
     // Important! add your repositoryname to basename
     <div className={styles.container}>
-
       <Router basename='/reactportfolio'>
         <Navbar />
         <AboutMe/>

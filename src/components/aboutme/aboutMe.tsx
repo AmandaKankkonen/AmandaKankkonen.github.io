@@ -12,7 +12,7 @@ const AboutMe: React.FC<AboutMeProps> = () => {
   return (
     <div className={styles.container}>
       <div className={styles.photo}>
-           <img src={photo} alt='myphoto'/>
+        <img src={photo} alt='myphoto'/>
       </div>
       <div className={styles.content}>
         <p>Hello, my name is</p>

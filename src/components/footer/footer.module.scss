@@ -13,3 +13,9 @@
         padding: 0px 5px;
     }
 }
+
+@media (max-width: 600px) {
+    .container {
+      display: inline-flex;
+    }
+  }
