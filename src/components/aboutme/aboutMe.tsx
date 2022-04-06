@@ -18,11 +18,18 @@ const AboutMe: React.FC<AboutMeProps> = () => {
         <p>Hello, my name is</p>
         <h1>Amanda Kankkonen</h1>
         <p>Originally from the US, I am a 2nd year programming student currently 
-           studying at Varia in Vantaa, Finland.<br/>
-           I am native in English and fluent in Finnish (taso B2).
+           studying at Varia in Vantaa, Finland.
+        <br></br>
+           During my programming studies at Varia I have been effeciently taught
+           how to create websites that are not only attractive, but functional 
+           on both the front and back end. I've learned to make fun, engaging
+           games using C# and Unity - both independently and in collaboration 
+           with my colleagues utilizing Agile/Scrum methods. Most of my framework
+           experience is with React and I prefer VScode. I love to learn new 
+           things and can't wait to see what the future has in store.
         </p>
           <h2>My language experience includes:</h2>
-        <p>HTML & CSS/SASS, Java, Javascript, Typescript, REACT, C#, SQL/NoSQL</p>
+        <p>HTML & CSS/SASS, Java, Javascript, Typescript, C#, SQL/NoSQL</p>
       </div>
       <div className={styles.gif}>
         <img src={gif} alt='wavegif'/>
