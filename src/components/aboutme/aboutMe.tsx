@@ -19,7 +19,7 @@ const AboutMe: React.FC<AboutMeProps> = () => {
         <h1>Amanda Kankkonen</h1>
         <p>Originally from the US, I am a 2nd year programming student currently 
            studying at Varia in Vantaa, Finland.
-        <br></br>
+          <br></br>
            During my programming studies at Varia I have been effeciently taught
            how to create websites that are not only attractive, but functional 
            on both the front and back end. I've learned to make fun, engaging
@@ -29,7 +29,7 @@ const AboutMe: React.FC<AboutMeProps> = () => {
            things and can't wait to see what the future has in store.
         </p>
           <h2>My language experience includes:</h2>
-        <p>HTML & CSS/SASS, Java, Javascript, Typescript, C#, SQL/NoSQL</p>
+        <p>Java, Javascript, Typescript, C#, HTML & CSS/SASS, SQL/NoSQL</p>
       </div>
       <div className={styles.gif}>
         <img src={gif} alt='wavegif'/>
