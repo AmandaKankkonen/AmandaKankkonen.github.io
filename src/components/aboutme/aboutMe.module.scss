@@ -60,8 +60,14 @@ $myFontWeight: bold;
 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .container {
       display: flexbox;
+      flex-direction: column;
+      width: fit-content; 
+        .content{
+          flex-direction: column;
+          width: fit-content;
+        }
     }
   }

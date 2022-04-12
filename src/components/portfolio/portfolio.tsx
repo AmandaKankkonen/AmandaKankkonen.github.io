@@ -8,26 +8,26 @@ const Port: React.FC = () => {
 
       <h2>Portfolio:</h2>
       <div className={styles.links}>
-          <a className={styles.link1} href=
-          "https://github.com/varia-ict/varia-agile-20C-ryhma-1" 
-          target='_blank' rel="noreferrer">
-            Wolf Adventure (C#) - group project
-          </a>
-          <a className={styles.link2} href=
-          "https://github.com/AmandaKankkonen/ThePhantomFields" 
-          target='_blank' rel="noreferrer">
-            Phantom Fields (Java) - Co-project
-          </a>
-          <a className={styles.link3} href=
-          "https://play.unity.com/u/AmandaKankkonen" 
-          target='_blank' rel="noreferrer">
-            WebGL Unity Play games(C#)
-          </a>
-          <a className={styles.link4} href=
-          "https://github.com/AmandaKankkonen/reactportfolio" 
-          target='_blank' rel="noreferrer">
-            React webpage for Ohjelmointi
-          </a>
+        <a className={styles.link1} href=
+        "https://github.com/varia-ict/varia-agile-20C-ryhma-1" 
+        target='_blank' rel="noreferrer">
+          Wolf Adventure (C#) - group project
+        </a>
+        <a className={styles.link2} href=
+        "https://github.com/AmandaKankkonen/ThePhantomFields" 
+        target='_blank' rel="noreferrer">
+          Phantom Fields (Java) - Co-project
+        </a>
+        <a className={styles.link3} href=
+        "https://play.unity.com/u/AmandaKankkonen" 
+        target='_blank' rel="noreferrer">
+          WebGL Unity Play games(C#)
+        </a>
+        <a className={styles.link4} href=
+        "https://github.com/AmandaKankkonen/reactportfolio" 
+        target='_blank' rel="noreferrer">
+          React webpage for Ohjelmointi
+        </a>
       </div>
     </div>
 )};
