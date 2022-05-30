@@ -26,10 +26,10 @@ const AboutMe: React.FC<AboutMeProps> = () => {
            games using C# and Unity - both independently and in collaboration 
            with my colleagues utilizing Agile/Scrum methods. Most of my framework
            experience is with React and I prefer VScode. I love to learn new 
-           things and can't wait to see what the future has in store.
+           things and can't wait to see what the future offers.
         </p>
           <h2>My language experience includes:</h2>
-        <p>Java, Javascript, Typescript, C#, HTML & CSS/SASS, SQL/NoSQL</p>
+        <p>Java, Javascript(RxJS), Typescript, C#, HTML & CSS/SASS, SQL/NoSQL</p>
       </div>
       <div className={styles.gif}>
         <img src={gif} alt='wavegif'/>
