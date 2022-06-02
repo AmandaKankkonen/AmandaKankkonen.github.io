@@ -4,7 +4,7 @@ $myTextAlign: center;
 $myFontWeight: bold;
 
 .navbar {
-    display: flex;
+    display: -webkit-flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -49,4 +49,20 @@ $myFontWeight: bold;
       font-weight: $myFontWeight;
       text-align: $myTextAlign;
     }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    a {
+      text-decoration: $myTextDeco;
+      font-size: 10;
+      border: $myBorder;
+      border-radius: 4px;
+      border-color: hotpink;
+      align-items: center;
+      padding: 1px 1px;
+      margin: 0px 3px;
+      display: inline-flex; 
+    }
+  }
 }

@@ -29,7 +29,7 @@ const AboutMe: React.FC<AboutMeProps> = () => {
            things and can't wait to see what the future offers.
         </p>
           <h2>My language experience includes:</h2>
-        <p>Java, Javascript(RxJS), Typescript, C#, HTML & CSS/SASS, SQL/NoSQL</p>
+        <p>Java, Javascript, Typescript, React, C#, HTML & CSS/SASS, SQL/NoSQL</p>
       </div>
       <div className={styles.gif}>
         <img src={gif} alt='wavegif'/>
