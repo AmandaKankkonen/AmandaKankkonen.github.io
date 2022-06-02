@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "./static/css/main.f603e037.chunk.css",
-    "main.js": "./static/js/main.0896de6a.chunk.js",
-    "main.js.map": "./static/js/main.0896de6a.chunk.js.map",
+    "main.css": "./static/css/main.a38770f8.chunk.css",
+    "main.js": "./static/js/main.7310cff3.chunk.js",
+    "main.js.map": "./static/js/main.7310cff3.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.7baa0a32.js",
     "runtime-main.js.map": "./static/js/runtime-main.7baa0a32.js.map",
     "static/js/2.ed619e4c.chunk.js": "./static/js/2.ed619e4c.chunk.js",
     "static/js/2.ed619e4c.chunk.js.map": "./static/js/2.ed619e4c.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.f603e037.chunk.css.map": "./static/css/main.f603e037.chunk.css.map",
+    "static/css/main.a38770f8.chunk.css.map": "./static/css/main.a38770f8.chunk.css.map",
     "static/js/2.ed619e4c.chunk.js.LICENSE.txt": "./static/js/2.ed619e4c.chunk.js.LICENSE.txt",
     "static/media/hiwave.818f76be.gif": "./static/media/hiwave.818f76be.gif",
     "static/media/image1.a6db37aa.jpg": "./static/media/image1.a6db37aa.jpg"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.7baa0a32.js",
     "static/js/2.ed619e4c.chunk.js",
-    "static/css/main.f603e037.chunk.css",
-    "static/js/main.0896de6a.chunk.js"
+    "static/css/main.a38770f8.chunk.css",
+    "static/js/main.7310cff3.chunk.js"
   ]
 }
