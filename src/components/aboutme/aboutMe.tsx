@@ -24,7 +24,8 @@ const AboutMe: React.FC<AboutMeProps> = () => {
            to make fun, engaging games using C# and Unity - both independently and in 
            collaboration with my colleagues utilizing Agile/Scrum methods. Most of my 
            framework experience is with React, and I prefer VScode. I love to learn new 
-           things and can't wait to see what the future offers.
+           things and can't wait to see what the future offers. Native English, Fluent 
+           Finnish.
           <br></br>Currently learning: Lua
         </p>
           <h2>My language experience includes:</h2>
