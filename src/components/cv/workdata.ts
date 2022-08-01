@@ -23,6 +23,6 @@ export const workdata: IWorkdata[] = [
     {
         key: 4,
         text: 'Au pair/Nanny',
-        date: '-Sara Ludena (Private Employer), 04/01/2014-06/06/2017'
+        date: '-Sara Ludena (Employer), 04/01/2014-06/06/2017'
     }
 ];
