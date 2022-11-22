@@ -25,7 +25,8 @@ const AboutMe: React.FC<AboutMeProps> = () => {
            but functional on both the front and back end. Most of my framework experience
            is with React, and I prefer VScode. I love to learn new things and can't wait to
            see what the future offers. I am nearing the end of my program (Class of 2023) and
-           am available for full-time work. Native English, Fluent Finnish. 
+           am available for full-time work. Native English, Fluent Finnish. Full authorized
+           to work in Finland & USA.
           <br></br>Currently learning: Lua, Kotlin, iOS/Android mobile games
         </p>
           <h2>My language experience includes:</h2>
