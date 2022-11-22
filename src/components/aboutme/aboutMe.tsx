@@ -29,7 +29,7 @@ const AboutMe: React.FC<AboutMeProps> = () => {
           <br></br>Currently learning: Lua, Kotlin, iOS/Android mobile games
         </p>
           <h2>My language experience includes:</h2>
-        <p>Java, Javascript, Typescript, React, C#, HTML & CSS/SASS, SQL/NoSQL</p>
+        <p>Java, Javascript, Typescript, React, C#, C, HTML & CSS/SASS, SQL/NoSQL</p>
           <h2>Some backend framework experience including:</h2>
         <p>Node.js/Express, REST, MongoDB</p>
       </div>
