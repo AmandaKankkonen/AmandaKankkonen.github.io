@@ -11,12 +11,12 @@ const Port: React.FC = () => {
         <a className={styles.link1} href=
         "https://github.com/varia-ict/varia-agile-20C-ryhma-1" 
         target='_blank' rel="noreferrer">
-          Wolf Adventure (C#) - group project
+          Wolf Adventure(C#) - group project
         </a>
         <a className={styles.link2} href=
         "https://github.com/AmandaKankkonen/ThePhantomFields" 
         target='_blank' rel="noreferrer">
-          Phantom Fields (Java) - Co-project
+          Phantom Fields(Java) - Co-project
         </a>
         <a className={styles.link3} href=
         "https://play.unity.com/u/AmandaKankkonen" 
