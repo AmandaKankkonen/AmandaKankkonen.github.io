@@ -25,8 +25,7 @@ const AboutMe: React.FC<AboutMeProps> = () => {
         back end. Most of my framework experience is with React, and I prefer VScode. I love 
         to learn new things and can't wait to see what the future offers. I received a 5 in 
         all my core classes, and performed exceptionally well in leadership positions during 
-        training. I am available for full-time work. Native English, Fluent Finnish. 
-        Currently learning: C++ & Python
+        training. I am available for full-time work. Native English, Fluent Finnish.
         <br></br>Currently learning: C++, Python
         </p>
           <h2>My language experience includes:</h2>
