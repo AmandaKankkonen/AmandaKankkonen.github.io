@@ -1,0 +1,68 @@
+$myBorder: 1px solid;
+$myTextDeco: none;
+$myTextAlign: center;
+$myFontWeight: bold;
+
+.navbar {
+    display: -webkit-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+
+    a {
+      text-decoration: $myTextDeco;
+      font-size: 20;
+      border: $myBorder;
+      border-radius: 4px;
+      color: hotpink;
+      border: 15px solid rgb(253, 73, 214);
+      border-image-source: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/hearts-border-image.png);
+      border-image-slice: 20 22;
+      border-image-repeat: stretch;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 15px 20px;
+      width: 65px;
+      height: 20px;
+      margin: 0px 15px;
+    }
+    
+  a:visited {
+      color: mediumorchid;
+      text-decoration: $myTextDeco;
+      text-align: $myTextAlign; 
+    } 
+    
+  a:hover {
+      color: #f12585;
+      text-decoration: $myTextDeco;
+      font-weight: $myFontWeight;
+      text-align: $myTextAlign; 
+    }
+    
+  a:active {
+      color: #6a8691;
+      text-decoration: $myTextDeco;
+      font-weight: $myFontWeight;
+      text-align: $myTextAlign;
+    }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    a {
+      text-decoration: $myTextDeco;
+      font-size: 10;
+      border: $myBorder;
+      border-radius: 4px;
+      border-color: hotpink;
+      align-items: center;
+      padding: 1px 1px;
+      margin: 0px 3px;
+      display: inline-flex; 
+    }
+  }
+}

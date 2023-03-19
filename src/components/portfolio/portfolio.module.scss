@@ -1,0 +1,83 @@
+$primary_1: #ffffff;
+$myFont: Georgia;
+$myBorder: 1px solid;
+$myTextAlign: center;
+$myFontWeight: bold;
+$myTextDeco: none;
+
+
+.container{
+    @extend h1;
+    background-color: #ffd5f1;
+    text-decoration: $myTextDeco;
+  }
+  
+h1 {
+    color: $primary_1;
+    font-family: $myFont;
+    font-weight: $myFontWeight;
+    text-align: $myTextAlign;
+  }
+  
+h2 {
+    @extend h1;
+  }
+
+p {
+    color: #add8e6;
+    font-family: $myFont;
+    text-align: $myTextAlign;
+    font-weight: $myFontWeight;
+    font-size: 35;
+  }
+  
+.links a{
+    @extend h1;
+    text-decoration: $myTextDeco;
+    font-size: 18;
+    display: inline-flex;
+    color: hotpink;
+    border: 15px solid rgb(253, 73, 214);
+    border-image-source: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/hearts-border-image.png);
+    border-image-slice: 20 22;
+    border-image-repeat: stretch;
+    padding: 25px 15px;
+    width: 105px;
+    height: 60px;
+    margin: 10px 10px; 
+}
+
+a {
+    color: hotpink;
+    text-decoration: $myTextDeco;
+    font-weight: $myFontWeight;
+    text-align: $myTextAlign;
+  }
+  
+a:visited {
+    color: mediumorchid;
+    text-decoration: $myTextDeco;
+    text-align: $myTextAlign; 
+  } 
+  
+a:hover {
+    color: #f12585;
+    text-decoration: $myTextDeco;
+    font-weight: $myFontWeight;
+    text-align: $myTextAlign; 
+  }
+  
+a:active {
+    color: #6a8691;
+    text-decoration: $myTextDeco;
+    font-weight: $myFontWeight;
+    text-align: $myTextAlign;
+  }
+
+  @media (max-width: 600px) {
+    .container {
+      display: flexbox;
+    }
+  }
+  
+  

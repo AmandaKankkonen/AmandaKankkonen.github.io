@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  display: center;
+  background-color: #ffd5f1; 
+  border: 100px solid pink;
+  border-image-source: url(https://pa1.narvii.com/6534/993b21b99040e7db1e68e4e94bb7080675b2241c_hq.gif);
+  border-image-repeat: repeat;
+  border-image-width: auto;
+  border-image-slice: 75 0;
+}
+
+.container {
+  height: 100%;
+}
+
+@media (max-width: 600px) {
+  body {
+    width: 100%;
+    display: flexbox;
+  }
+}

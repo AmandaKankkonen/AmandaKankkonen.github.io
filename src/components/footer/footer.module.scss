@@ -1,0 +1,21 @@
+.container {
+    background-color: #ffd5f1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 100%;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+
+    img {
+        padding: 0px 5px;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+      display: inline-flex;
+    }
+  }

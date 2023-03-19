@@ -1,0 +1,28 @@
+$myFont: Georgia;
+$myTextAlign: center;
+$myFontWeight: bold;
+
+.container {
+  text-align: $myTextAlign
+}
+
+h2 {
+  text-shadow: 1px 1px 2px purple;
+  text-align: $myTextAlign
+}
+
+.container ul li {
+  color: hotpink;
+  font-family: $myFont;
+  text-align: $myTextAlign;
+  font-weight: $myFontWeight;
+  font-size: 35;
+  margin: 10px 0;
+  list-style: url('https://i.ibb.co/Ythvt18/pngegg-2.png') inside;
+}
+
+@media (max-width: 800px) {
+  .container {
+    display: flexbox;
+  }
+}
