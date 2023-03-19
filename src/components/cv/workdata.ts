@@ -7,8 +7,8 @@ export default interface IWorkdata {
 export const workdata: IWorkdata[] = [
     {
         key: 1,
-        text: 'Työharjoittelu(ICT) - KNX/Lua',
-        date: '-Lokkit Oy, 29/03/2022-present/nykyään'
+        text: 'Työharjoittelu(ICT) - KNX IoT/Project manager/Lead programmer',
+        date: '-Lokkit Oy, 29/03/2022-17/03/2023'
     },
     {
         key: 2,

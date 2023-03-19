@@ -7,8 +7,8 @@ export default interface IKouludata {
 export const kouludata: IKouludata[] = [
     {
         key: 1,
-        text: 'ICT Ojelmistokehittaja perustutkinto',
-        date: ' -Varia ammattikoulu, 01/02/2021-present/nykyään'
+        text: 'Tieto- ja viestintätekniikan perustutkinto: ICT Ojelmistokehittaja',
+        date: ' -Varia ammattikoulu, 01/02/2021-17/03/2023'
     },
     {
         key: 2,
@@ -27,7 +27,7 @@ export const kouludata: IKouludata[] = [
     },
     {
         key: 5,
-        text: 'Kynsiteknikko/Nail Technician Diploma',
+        text: 'Kynsiteknikko-todistus/Nail Technician Diploma',
         date: '-New Skills Academy, 05/12/2019-11/12/2019'
     },
     {
