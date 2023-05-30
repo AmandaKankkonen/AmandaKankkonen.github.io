@@ -10,7 +10,7 @@ const Port: React.FC = () => {
         <a className={styles.link1} href=
         "https://github.com/varia-ict/varia-agile-20C-ryhma-1" 
         target='_blank' rel="noreferrer">
-          Wolf Adventure(C#) - group project
+          Wolf Adventure Game - Collab
         </a>
         <a className={styles.link2} href=
         "https://github.com/AmandaKankkonen/ThePhantomFields" 
@@ -20,12 +20,12 @@ const Port: React.FC = () => {
         <a className={styles.link3} href=
         "https://play.unity.com/u/AmandaKankkonen" 
         target='_blank' rel="noreferrer">
-          WebGL Unity Play games(C#)
+          WebGL Unity Play Games(C#)
         </a>
         <a className={styles.link4} href=
-        "https://github.com/AmandaKankkonen/reactportfolio" 
+        "https://play.unity.com/mg/other/animal-playground-rescue" 
         target='_blank' rel="noreferrer">
-          React webpage for Ohjelmointi
+          Animal Playground Rescue Game
         </a>
       </div>
     </div>
