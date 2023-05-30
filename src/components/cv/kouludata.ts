@@ -8,7 +8,7 @@ export const kouludata: IKouludata[] = [
     {
         key: 1,
         text: 'Tieto- ja viestintätekniikan perustutkinto: ICT Ojelmistokehittaja',
-        date: ' -Varia ammattikoulu, 01/02/2021-17/03/2023'
+        date: ' -Varia ammattikoulu, 01/02/2021-21/03/2023'
     },
     {
         key: 2,

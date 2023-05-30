@@ -30,3 +30,5 @@ const Port: React.FC = () => {
       </div>
     </div>
 )};
+
+export default Port
