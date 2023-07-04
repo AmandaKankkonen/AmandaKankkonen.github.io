@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "./static/css/main.811696e8.css",
-    "main.js": "./static/js/main.4772cc66.js",
+    "main.js": "./static/js/main.782718a1.js",
     "static/media/image1.jpg": "./static/media/image1.a6db37aa5fea000a015a.jpg",
     "static/media/hiwave.gif": "./static/media/hiwave.818f76bea4da336783d3.gif",
     "index.html": "./index.html",
     "main.811696e8.css.map": "./static/css/main.811696e8.css.map",
-    "main.4772cc66.js.map": "./static/js/main.4772cc66.js.map"
+    "main.782718a1.js.map": "./static/js/main.782718a1.js.map"
   },
   "entrypoints": [
     "static/css/main.811696e8.css",
-    "static/js/main.4772cc66.js"
+    "static/js/main.782718a1.js"
   ]
 }
