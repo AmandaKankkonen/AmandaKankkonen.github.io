@@ -22,10 +22,11 @@ const AboutMe: React.FC<AboutMeProps> = () => {
         taught how to create unique, engaging games using C# and Unity - both independently 
         and in collaboration with my colleagues utilizing Agile/Scrum methods. I've learned 
         to make websites that are not only attractive, but functional on both the front and 
-        back end. Most of my framework experience is with React, and I prefer VScode. I love 
-        to learn new things and can't wait to see what the future offers. I received a 5 in 
-        all my core classes, and performed exceptionally well in leadership positions during 
-        training. I am available for full-time work. Native English, Fluent Finnish.
+        back end. Most of my framework experience is with React, and I prefer VScode. In addition
+        to software development, I also have experience with hardware, building computers and 
+        networking. I received a 5 in all my core classes, and performed exceptionally well 
+        in leadership positions during my internship. I am available for full-time work. Native 
+        English, Fluent Finnish.
         <br></br>Currently learning: C++, Python
         </p>
           <h2>My language experience includes:</h2>
